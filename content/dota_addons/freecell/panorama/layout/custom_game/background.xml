@@ -1,0 +1,21 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/dotastyles.css" />
+        <include src="file://{resources}/styles/custom_game/background.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/background.js" />
+    </scripts>
+    <Panel class="outer-container" hittest="false">
+      <Panel class="inner-container" hittest="false">
+      </Panel>
+      <Panel class="right-edge" hittest="false">
+        <Panel class="piece-1" hittest="false">
+        </Panel>
+        <Panel class="piece-2" hittest="false">
+        </Panel>
+        <Panel class="piece-3" hittest="false">
+        </Panel>
+      </Panel>
+    </Panel>
+</root>

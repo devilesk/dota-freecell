@@ -1,0 +1,144 @@
+.container {
+  width: 1920px;
+  height: 1080px;
+  flow-children: right-wrap;
+  /*background-color: gradient( linear, 0% 0%, 0% 100%, from( #588c46 ), to( #1f3b08 ) );*/
+  /*opacity: .5;*/
+  /*border: 1px solid red;*/
+}
+
+.row {
+  width: 100%;
+}
+
+.slot-container {
+  flow-children: right;
+}
+
+#cell-container {
+  padding-left: 60px;
+}
+
+#foundation-container {
+  padding-right: 60px;
+  horizontal-align: right;
+}
+
+#columns-row {
+  flow-children: right;
+}
+
+#columns {
+  border: 1px solid black;
+  horizontal-align: middle;
+}
+
+.card-slot {
+  horizontal-align: left;
+  vertical-align: top;
+  padding: 5px;
+  x: 0px;
+  y: 0px;
+  border-radius: 10px;
+  width: 110px;
+  height: 160px;
+  border: 1px solid black;
+  margin: 20px;
+  background-size: 100% 100%;
+}
+
+#card-container {
+  width: 100%;
+}
+
+#controls-container {
+  flow-children: right-wrap;
+  margin-left: 50px;
+}
+
+#game-number-label {
+  margin-left: 10px;
+}
+
+Label {
+  margin-top: 5px;
+/*	padding: 6% 12% 6% 3%;*/
+  color: #cccccc;
+  font-size: 16;
+  font-weight: thin;
+  vertical-align: middle;
+  text-transform: none;
+  letter-spacing: 0px;
+
+	margin-left: 0%;
+	margin-top: 2px;
+	font-size: 20;
+	color: #888888;
+	letter-spacing: 1px;
+}
+
+.btn {
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #333333), to( #444444 ) );
+
+	height: 36px;
+	width: 140px;
+
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+
+  border-style: solid;
+  border-width: 1px;
+
+  border-top-color: #444444;
+  border-left-color: #494949;
+  border-bottom-color: #111111;
+  border-right-color: #404040;
+
+  transition-property: background-color;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+}
+
+.btn Label {
+  margin-top: 5px;
+/*	padding: 6% 12% 6% 3%;*/
+  color: #cccccc;
+  font-size: 16;
+  font-weight: thin;
+  vertical-align: middle;
+  text-transform: none;
+  letter-spacing: 0px;
+
+	horizontal-align: middle;
+	margin-left: 0%;
+	margin-top: 2px;
+	font-size: 20;
+	color: #888888;
+	//text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	min-width: 100%;
+}
+
+.btn:hover {
+  background-color: gradient( linear, 0% 0%, 0% 100%, from( #444444 ), to( #555555 ) );
+}
+
+.btn:hover Label {
+  //color: #cccccc;
+}
+
+.btn:active {
+  background-color: gradient( linear, 0% 0%, 0% 100%, from( #888888 ), to( #aaaaaa ) );
+	pre-transform-scale2d: 1.02;
+}
+
+.btn:active Label {
+  //color: #eeeeee;
+}
+
+.btn:selected {
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #777777 ), to( #999999 ) );
+}

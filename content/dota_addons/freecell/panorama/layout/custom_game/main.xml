@@ -1,0 +1,53 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="file://{resources}/styles/custom_game/main.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/main.js" />
+    </scripts>
+    <Panel class="container" hittest="false">
+      <Panel id="controls-container" hittest="false">
+        <Button id="new-game-button" class="btn" onactivate="OnNewGame()">
+          <Label id="new-game-button-label" text="New Game" />
+        </Button>
+        <Button id="select-game-button" class="btn" onactivate="OnSelectGame()">
+          <Label id="select-game-button-label" text="Select Game" />
+        </Button>
+        <Button id="undo-button" class="btn" onactivate="OnUndo()">
+          <Label id="undo-button-label" text="Undo" />
+        </Button>
+        <Label id="game-number-label" text="" />
+      </Panel>
+      <Panel id="card-container" hittest="false">
+      </Panel>
+      <!--<Panel id="top-row" class="row" hittest="false">
+        <Panel id="cell-container" class="slot-container" hittest="false">
+          <Panel id="cell0" class="card-slot" hittest="false"></Panel>
+          <Panel id="cell1" class="card-slot" hittest="false"></Panel>
+          <Panel id="cell2" class="card-slot" hittest="false"></Panel>
+          <Panel id="cell3" class="card-slot" hittest="false"></Panel>
+        </Panel>
+        <Panel id="foundation-container" class="slot-container" hittest="false">
+          <Panel id="foundation0" class="card-slot" hittest="false"></Panel>
+          <Panel id="foundation1" class="card-slot" hittest="false"></Panel>
+          <Panel id="foundation2" class="card-slot" hittest="false"></Panel>
+          <Panel id="foundation3" class="card-slot" hittest="false"></Panel>
+        </Panel>
+      </Panel>
+      <Panel id="columns-row" class="row" hittest="false">
+        <Panel id="columns" class="slot-container" hittest="false">
+          <Panel id="column0" class="card-slot" hittest="false"></Panel>
+          <Panel id="column1" class="card-slot" hittest="false"></Panel>
+          <Panel id="column2" class="card-slot" hittest="false"></Panel>
+          <Panel id="column3" class="card-slot" hittest="false"></Panel>
+          <Panel id="column4" class="card-slot" hittest="false"></Panel>
+          <Panel id="column5" class="card-slot" hittest="false"></Panel>
+          <Panel id="column6" class="card-slot" hittest="false"></Panel>
+          <Panel id="column7" class="card-slot" hittest="false"></Panel>
+        </Panel>
+      </Panel>
+      <Panel id="card-container" hittest="false">
+      </Panel>-->
+    </Panel>
+</root>
