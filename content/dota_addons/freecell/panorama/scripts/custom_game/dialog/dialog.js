@@ -3,18 +3,17 @@
 var _dialog;
 
 function SetDialog(dialog) {
-  _dialog = dialog;
+    _dialog = dialog;
 }
 
 function GetDialog() {
-  return _dialog;
+    return _dialog;
 }
 
-(function()
-{
+(function() {
 
-	$.GetContextPanel().SetDialog = SetDialog;
-	$.GetContextPanel().GetDialog = GetDialog;
-  
-  //$.Msg("dialog/dialog.js");
+    $.GetContextPanel().SetDialog = SetDialog;
+    $.GetContextPanel().GetDialog = GetDialog;
+
+    //$.Msg("dialog/dialog.js");
 })();
