@@ -1,14 +1,12 @@
 <root>
-  <scripts>
-    <include src="file://{resources}/scripts/custom_game/util/util.js" />
-  </scripts>
-	<Panel>
-		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/background.xml" />
-		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/main.xml" />
-    <CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/cards/table.xml" />
-    <CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/dialog/main.xml" />
-    <CustomUIElement type="LoadingScreen" layoutfile="file://{resources}/layout/custom_game/custom_loading_screen.xml" />
-	</Panel>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/util/util.js" />
+    </scripts>
+    <Panel>
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/background.xml" />
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/main.xml" />
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/cards/table.xml" />
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/dialog/main.xml" />
+        <CustomUIElement type="LoadingScreen" layoutfile="file://{resources}/layout/custom_game/custom_loading_screen.xml" />
+    </Panel>
 </root>
-
-

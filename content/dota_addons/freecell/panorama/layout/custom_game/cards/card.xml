@@ -1,16 +1,14 @@
 <root>
-	<styles>
-		<include src="file://{resources}/styles/dotastyles.css" />
-		<include src="file://{resources}/styles/custom_game/cards/card.css" />
-	</styles>
-	<scripts>
-    <include src="file://{resources}/scripts/custom_game/cards/card.js" />
-	</scripts>
-	<Panel class="card-container card-animate" hittest="false">
-    <Button id="card-button" class="card">
-      <Panel class="card-inner" hittest="false">
-      
-      </Panel>
-    </Button>
-	</Panel>
+    <styles>
+        <include src="file://{resources}/styles/dotastyles.css" />
+        <include src="file://{resources}/styles/custom_game/cards/card.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/cards/card.js" />
+    </scripts>
+    <Panel class="card-container card-animate" hittest="false">
+        <Button id="card-button" class="card">
+            <Panel class="card-inner" hittest="false"></Panel>
+        </Button>
+    </Panel>
 </root>
