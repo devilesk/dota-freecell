@@ -17,7 +17,7 @@ function OnNewGame() {
 function StartGame(num) {
     Game.EmitSound("Card.cardOpenPackage2");
     fc.deal(num);
-    $('#game-number-label').text = "Game #" + num;
+    $('#game-number-label').text = $.Localize("game_number_label") + num;
 }
 
 function OnPlayAgain() {
@@ -38,7 +38,7 @@ function OnPlayAgain() {
                 children: [{
                     id: "label-1",
                     panelType: "Label",
-                    text: "Congratulations, you won the game!"
+                    text: $.Localize("victory_text")
                 }]
             }, {
                 cssClasses: ["control", "horizontal-center"],
@@ -60,7 +60,7 @@ function OnPlayAgain() {
                     cssClasses: ["btn"],
                     children: [{
                         panelType: "Label",
-                        text: "Play again",
+                        text: $.Localize("play_again"),
                         skipBindHandlers: true
                     }]
                 }]
@@ -87,7 +87,7 @@ function OnLose() {
                 children: [{
                     id: "label-1",
                     panelType: "Label",
-                    text: "No valid moves remaining. You lost the game!"
+                    text: $.Localize("defeat_text")
                 }]
             }, {
                 cssClasses: ["control"],
@@ -109,7 +109,7 @@ function OnLose() {
                     cssClasses: ["btn"],
                     children: [{
                         panelType: "Label",
-                        text: "Undo",
+                        text: $.Localize("undo"),
                         skipBindHandlers: true
                     }]
                 }]
@@ -133,7 +133,7 @@ function OnLose() {
                     cssClasses: ["btn"],
                     children: [{
                         panelType: "Label",
-                        text: "Play again",
+                        text: $.Localize("play_again"),
                         skipBindHandlers: true
                     }]
                 }]
@@ -161,7 +161,7 @@ function OnSelectGame() {
                 children: [{
                     id: "label-1",
                     panelType: "Label",
-                    text: "Select a game number from 1 to 32000"
+                    text: $.Localize("select_game_label")
                 }, {
                     events: {
                         OnInputSubmit: function() {
@@ -203,7 +203,7 @@ function OnSelectGame() {
                     cssClasses: ["btn"],
                     children: [{
                         panelType: "Label",
-                        text: "OK",
+                        text: $.Localize("ok"),
                         skipBindHandlers: true
                     }]
                 }]
@@ -226,7 +226,7 @@ function OnSelectGame() {
                     cssClasses: ["btn"],
                     children: [{
                         panelType: "Label",
-                        text: "Cancel",
+                        text: $.Localize("cancel"),
                         skipBindHandlers: true
                     }]
                 }]

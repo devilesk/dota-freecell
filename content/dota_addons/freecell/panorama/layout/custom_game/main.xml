@@ -9,13 +9,13 @@
     <Panel class="container" hittest="false">
         <Panel id="controls-container" hittest="false">
             <Button id="new-game-button" class="btn" onactivate="OnNewGame()">
-                <Label id="new-game-button-label" text="New Game" />
+                <Label id="new-game-button-label" text="#new_game" />
             </Button>
             <Button id="select-game-button" class="btn" onactivate="OnSelectGame()">
-                <Label id="select-game-button-label" text="Select Game" />
+                <Label id="select-game-button-label" text="#select_game" />
             </Button>
             <Button id="undo-button" class="btn" onactivate="OnUndo()">
-                <Label id="undo-button-label" text="Undo" />
+                <Label id="undo-button-label" text="#undo" />
             </Button>
             <Label id="game-number-label" text="" />
         </Panel>

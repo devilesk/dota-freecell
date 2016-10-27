@@ -1,0 +1,14 @@
+"addon"
+{
+    "LoadingScreenDescriptionText"  "A solitaire-based card game"
+    "new_game"                      "New Game"
+    "undo"                          "Undo"
+    "select_game"                   "Select Game"
+    "select_game_label"             "Select a game number from 1 to 32000"
+    "game_number_label"             "Game #"
+    "victory_text"                  "Congratulations, you won the game!"
+    "defeat_text"                   "No valid moves remaining. You lost the game!"
+    "play_again"                    "Play again"
+    "ok"                            "OK"
+    "cancel"                        "Cancel"
+}
