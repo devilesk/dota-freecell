@@ -8,6 +8,8 @@
     </scripts>
     <Panel class="container" hittest="false">
         <Panel id="controls-container" hittest="false">
+            <Button id="DashboardButton" hittest="false">
+            </Button>
             <Button id="new-game-button" class="btn" onactivate="OnNewGame()">
                 <Label id="new-game-button-label" text="#new_game" />
             </Button>
