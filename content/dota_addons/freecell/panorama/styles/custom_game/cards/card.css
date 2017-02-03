@@ -1,313 +1,243 @@
 .dragging_from {
-  opacity: 0.5;
+    opacity: 0.5;
 }
-
 .potential_drop_target .card {
-  box-shadow: orange -1px -1px 4px 2px;
+    box-shadow: orange -1px -1px 4px 2px;
 }
-
 .highlight .card {
-  box-shadow: yellow -1px -1px 4px 2px;
+    box-shadow: yellow -1px -1px 4px 2px;
 }
-
-.card-container {
-  /*transition: transform 0.2s ease-in-out 0.0s, perspective-origin 1.2s ease-in-out 0.8s;*/
-}
-
 .card-animate {
-  transition: position 0.2s ease-in-out 0.0s, perspective-origin 1.2s ease-in-out 0.8s,
-              transform 0.2s ease-in-out 0.0s, perspective-origin 1.2s ease-in-out 0.8s;
+    transition: position 0.2s ease-in-out 0.0s, perspective-origin 1.2s ease-in-out 0.8s, transform 0.2s ease-in-out 0.0s, perspective-origin 1.2s ease-in-out 0.8s;
 }
-
 .card {
-  padding: 5px;
-  background-color: white;
-  border-radius: 10px;
-  width: 110px;
-  height: 160px;
-  border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    width: 110px;
+    height: 160px;
+    border: 1px solid black;
 }
-
 .card-flip-x {
-  transform: rotateX( -180deg );
+    transform: rotateX( -180deg);
 }
-
 .card-flip-y {
-  transform: rotateY( -180deg );
+    transform: rotateY( -180deg);
 }
-/*
-.card-container:not(.inactive) .card:hover {
-  border: 1px solid orange;
-}
-*/
-
 .card-inner {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
-
 .card-back .card-inner {
-  background-color: red;
-  background-image: url("file://{images}/cards/back.png");
-  background-size: 100% 100%;
+    background-color: red;
+    background-image: url("file://{images}/cards/back.png");
+    background-size: 100% 100%;
 }
-
 .card-ac .card-inner {
-  background-image: url("file://{images}/cards/ac.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/ac.png");
+    background-size: 100% 100%;
 }
-
 .card-ad .card-inner {
-  background-image: url("file://{images}/cards/ad.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/ad.png");
+    background-size: 100% 100%;
 }
-
 .card-ah .card-inner {
-  background-image: url("file://{images}/cards/ah.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/ah.png");
+    background-size: 100% 100%;
 }
-
 .card-as .card-inner {
-  background-image: url("file://{images}/cards/as.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/as.png");
+    background-size: 100% 100%;
 }
-
 .card-2c .card-inner {
-  background-image: url("file://{images}/cards/2c.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/2c.png");
+    background-size: 100% 100%;
 }
-
 .card-2d .card-inner {
-  background-image: url("file://{images}/cards/2d.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/2d.png");
+    background-size: 100% 100%;
 }
-
 .card-2h .card-inner {
-  background-image: url("file://{images}/cards/2h.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/2h.png");
+    background-size: 100% 100%;
 }
-
 .card-2s .card-inner {
-  background-image: url("file://{images}/cards/2s.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/2s.png");
+    background-size: 100% 100%;
 }
-
 .card-3c .card-inner {
-  background-image: url("file://{images}/cards/3c.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/3c.png");
+    background-size: 100% 100%;
 }
-
 .card-3d .card-inner {
-  background-image: url("file://{images}/cards/3d.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/3d.png");
+    background-size: 100% 100%;
 }
-
 .card-3h .card-inner {
-  background-image: url("file://{images}/cards/3h.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/3h.png");
+    background-size: 100% 100%;
 }
-
 .card-3s .card-inner {
-  background-image: url("file://{images}/cards/3s.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/3s.png");
+    background-size: 100% 100%;
 }
-
 .card-4c .card-inner {
-  background-image: url("file://{images}/cards/4c.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/4c.png");
+    background-size: 100% 100%;
 }
-
 .card-4d .card-inner {
-  background-image: url("file://{images}/cards/4d.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/4d.png");
+    background-size: 100% 100%;
 }
-
 .card-4h .card-inner {
-  background-image: url("file://{images}/cards/4h.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/4h.png");
+    background-size: 100% 100%;
 }
-
 .card-4s .card-inner {
-  background-image: url("file://{images}/cards/4s.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/4s.png");
+    background-size: 100% 100%;
 }
-
 .card-5c .card-inner {
-  background-image: url("file://{images}/cards/5c.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/5c.png");
+    background-size: 100% 100%;
 }
-
 .card-5d .card-inner {
-  background-image: url("file://{images}/cards/5d.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/5d.png");
+    background-size: 100% 100%;
 }
-
 .card-5h .card-inner {
-  background-image: url("file://{images}/cards/5h.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/5h.png");
+    background-size: 100% 100%;
 }
-
 .card-5s .card-inner {
-  background-image: url("file://{images}/cards/5s.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/5s.png");
+    background-size: 100% 100%;
 }
-
 .card-6c .card-inner {
-  background-image: url("file://{images}/cards/6c.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/6c.png");
+    background-size: 100% 100%;
 }
-
 .card-6d .card-inner {
-  background-image: url("file://{images}/cards/6d.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/6d.png");
+    background-size: 100% 100%;
 }
-
 .card-6h .card-inner {
-  background-image: url("file://{images}/cards/6h.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/6h.png");
+    background-size: 100% 100%;
 }
-
 .card-6s .card-inner {
-  background-image: url("file://{images}/cards/6s.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/6s.png");
+    background-size: 100% 100%;
 }
-
 .card-7c .card-inner {
-  background-image: url("file://{images}/cards/7c.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/7c.png");
+    background-size: 100% 100%;
 }
-
 .card-7d .card-inner {
-  background-image: url("file://{images}/cards/7d.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/7d.png");
+    background-size: 100% 100%;
 }
-
 .card-7h .card-inner {
-  background-image: url("file://{images}/cards/7h.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/7h.png");
+    background-size: 100% 100%;
 }
-
 .card-7s .card-inner {
-  background-image: url("file://{images}/cards/7s.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/7s.png");
+    background-size: 100% 100%;
 }
-
 .card-8c .card-inner {
-  background-image: url("file://{images}/cards/8c.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/8c.png");
+    background-size: 100% 100%;
 }
-
 .card-8d .card-inner {
-  background-image: url("file://{images}/cards/8d.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/8d.png");
+    background-size: 100% 100%;
 }
-
 .card-8h .card-inner {
-  background-image: url("file://{images}/cards/8h.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/8h.png");
+    background-size: 100% 100%;
 }
-
 .card-8s .card-inner {
-  background-image: url("file://{images}/cards/8s.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/8s.png");
+    background-size: 100% 100%;
 }
-
 .card-9c .card-inner {
-  background-image: url("file://{images}/cards/9c.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/9c.png");
+    background-size: 100% 100%;
 }
-
 .card-9d .card-inner {
-  background-image: url("file://{images}/cards/9d.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/9d.png");
+    background-size: 100% 100%;
 }
-
 .card-9h .card-inner {
-  background-image: url("file://{images}/cards/9h.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/9h.png");
+    background-size: 100% 100%;
 }
-
 .card-9s .card-inner {
-  background-image: url("file://{images}/cards/9s.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/9s.png");
+    background-size: 100% 100%;
 }
-
 .card-tc .card-inner {
-  background-image: url("file://{images}/cards/tc.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/tc.png");
+    background-size: 100% 100%;
 }
-
 .card-td .card-inner {
-  background-image: url("file://{images}/cards/td.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/td.png");
+    background-size: 100% 100%;
 }
-
 .card-th .card-inner {
-  background-image: url("file://{images}/cards/th.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/th.png");
+    background-size: 100% 100%;
 }
-
 .card-ts .card-inner {
-  background-image: url("file://{images}/cards/ts.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/ts.png");
+    background-size: 100% 100%;
 }
-
 .card-jc .card-inner {
-  background-image: url("file://{images}/cards/jc.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/jc.png");
+    background-size: 100% 100%;
 }
-
 .card-jd .card-inner {
-  background-image: url("file://{images}/cards/jd.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/jd.png");
+    background-size: 100% 100%;
 }
-
 .card-jh .card-inner {
-  background-image: url("file://{images}/cards/jh.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/jh.png");
+    background-size: 100% 100%;
 }
-
 .card-js .card-inner {
-  background-image: url("file://{images}/cards/js.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/js.png");
+    background-size: 100% 100%;
 }
-
 .card-qc .card-inner {
-  background-image: url("file://{images}/cards/qc.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/qc.png");
+    background-size: 100% 100%;
 }
-
 .card-qd .card-inner {
-  background-image: url("file://{images}/cards/qd.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/qd.png");
+    background-size: 100% 100%;
 }
-
 .card-qh .card-inner {
-  background-image: url("file://{images}/cards/qh.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/qh.png");
+    background-size: 100% 100%;
 }
-
 .card-qs .card-inner {
-  background-image: url("file://{images}/cards/qs.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/qs.png");
+    background-size: 100% 100%;
 }
-
 .card-kc .card-inner {
-  background-image: url("file://{images}/cards/kc.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/kc.png");
+    background-size: 100% 100%;
 }
-
 .card-kd .card-inner {
-  background-image: url("file://{images}/cards/kd.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/kd.png");
+    background-size: 100% 100%;
 }
-
 .card-kh .card-inner {
-  background-image: url("file://{images}/cards/kh.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/kh.png");
+    background-size: 100% 100%;
 }
-
 .card-ks .card-inner {
-  background-image: url("file://{images}/cards/ks.png");
-  background-size: 100% 100%;
+    background-image: url("file://{images}/cards/ks.png");
+    background-size: 100% 100%;
 }

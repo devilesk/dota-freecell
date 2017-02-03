@@ -1,38 +1,33 @@
 .outer-container {
-  flow-children: right;
-  width: 1920px;
-  height: 1036px;
-  margin-top: 44px;
-  /*background-image: url("file://{images}/ui_background.png");*/
-  background-color: gradient( linear, 0% 0%, 0% 100%, from( #588c46 ), to( #1f3b08 ) );
+    flow-children: right;
+    width: 1920px;
+    height: 1080px;
+    background-color: gradient( linear, 0% 0%, 0% 100%, from( #588c46 ), to( #1f3b08 ) );
 }
 
 .inner-container {
-  width: 1840px;
-  /*border: 1px solid red;*/
-  height: 1036px;
-  flow-children: right;
-  /*background-color: gradient( linear, 0% 0%, 0% 100%, from( #588c46 ), to( #1f3b08 ) );*/
-  /*opacity: .5;*/
+    width: 1840px;
+    height: 1036px;
+    flow-children: right;
 }
 
 .right-edge {
-  width: 80px;
-  height: 1036px;
-  flow-children: down;
+    width: 80px;
+    height: 1036px;
+    flow-children: down;
 }
 
 .piece-1 {
-  width: 100%;
-  height: 616px;
+    width: 100%;
+    height: 616px;
 }
 
 .piece-2 {
-  width: 100%;
-  height: 60px;
+    width: 100%;
+    height: 60px;
 }
 
 .piece-3 {
-  width: 100%;
-  height: 360px;
+    width: 100%;
+    height: 360px;
 }
