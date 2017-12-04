@@ -506,7 +506,7 @@ function OnSelectGame() {
             // check if valid move to cell to stack
             for (var i = 0; i < this.cells.length; i++) {
                 var card = this.cells[i].last();
-                for (var j = 0; j < column.length(); j++) {
+                for (var j = 0; j < this.columns.length; j++) {
                     var destCard = this.columns[j].last();
                     if (card.isValidMove(card, destCard)) return true;
                 };
